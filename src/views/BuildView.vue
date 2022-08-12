@@ -1,6 +1,6 @@
 <template>
-  <div class="shop">
-    <h1>Shop</h1>
+  <div class="build">
+    <h1>Recipe build</h1>
     
   </div>
 </template>
