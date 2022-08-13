@@ -1,6 +1,8 @@
 <template>
   <div class="build">
-    <h1>Recipe build</h1>
+    <BuildWindow> 
+
+    </BuildWindow>
     
   </div>
 </template>
@@ -8,5 +10,7 @@
 
 
 <script setup>
+  import BuildWindow from '@/components/BuildWindow.vue'
+
 
 </script>
