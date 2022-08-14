@@ -1,12 +1,12 @@
 <template>
     <div class="build-window">
-        <div class="container mx-auto h-[32rem] w-[full]  bg-slate-400 ">
-        
-        </div>
+        <BuildModal />
     </div>
 </template>
 
 <script setup>
+    import BuildModal from '@/components/BuildModal.vue'
+
 
 </script>
 
