@@ -3,8 +3,8 @@
         <div class="container flex mx-auto  p-10 min-h-full max-h-max	max-height: max-content; min-w-[75%]  ">
             <div class=" p-3  mx-auto flex h-[50rem] w-[100%] bg-slate-900">
                 
-                <div class="left-side  p-2 h-[100%] w-[20%] bg-white">
-                
+                <div class="left-side   h-[100%] w-[20%] bg-white">
+                    <MethodCard />
                 </div>
 
                 <div class="mid-content  p-2 mx-3 h-[100%] w-[60%] bg-white">
@@ -23,6 +23,7 @@
 </template>
 
 <script setup>
+import MethodCard from './Build/MethodCard.vue';
 
 
 </script>
@@ -35,6 +36,9 @@
         }
     }
 
+    
+
+
     @media (max-width: 900px){
         .container > .flex {
             flex-direction: column;
@@ -43,6 +47,7 @@
         .left-side {
             width: 100%;
             height: 20%;
+            padding: 2px;
         }
 
          .right-side {
@@ -65,6 +70,27 @@
             padding: 2.5vw;
         }
     }
+
+     @media (max-width: 900px){  
+            .method-card {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 30%;
+            }
+        }
+
+        @media (max-width: 450px){  
+            .method-card {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 80%;
+                margin:  0 auto;
+            }
+        }
+
+
 
 
 </style>
