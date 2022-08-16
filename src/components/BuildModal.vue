@@ -1,20 +1,13 @@
 <template>
     <div class="build-modal">
         <div class="container flex mx-auto  p-10 min-h-full max-h-max	max-height: max-content; min-w-[75%]  ">
-            <div class=" p-3  mx-auto flex h-[50rem] w-[100%] bg-slate-900">
-                
-                <div class="left-side   h-[100%] w-[20%] bg-white">
-                    <MethodCard />
-                </div>
+            <div class=" p-3  mx-auto flex h-[15rem] w-[100%] bg-slate-900">
 
-                <div class="mid-content  p-2 mx-3 h-[100%] w-[60%] bg-white">
-                
-                </div>
 
-                <div class="right-side  p-2 h-[100%] w-[20%] bg-white">
-                
-                </div>
-
+                <BuildMethods >
+                    <AeropressCard />
+                    <AeropressCard />
+                </BuildMethods >
 
 
             </div>
@@ -23,8 +16,9 @@
 </template>
 
 <script setup>
-import MethodCard from './Build/MethodCard.vue';
-
+import MethodCard from '@/components/Build/AeropressCard.vue';
+import BuildMethods from '@/components/BuildMethods.vue';
+import AeropressCard from '@/components/Build/AeropressCard.vue';
 
 </script>
 

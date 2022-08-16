@@ -1,8 +1,8 @@
 <template>
   <div class="build">
-    <BuildWindow> 
-
-    </BuildWindow>
+    
+      <BuildModal> </BuildModal>
+    
     
   </div>
 </template>
@@ -10,7 +10,8 @@
 
 
 <script setup>
-  import BuildWindow from '@/components/BuildWindow.vue'
+
+  import BuildModal from '@/components/BuildModal.vue'
 
 
 </script>
