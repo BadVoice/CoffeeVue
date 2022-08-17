@@ -1,7 +1,10 @@
 <template>
-    <div class="aeropress-card w-[20%] h-[100%] bg-black">
+    
+        <div class=" w-[25%] h-full">
         
-    </div>
+            
+        </div>
+    
 </template>
 
 <script setup>

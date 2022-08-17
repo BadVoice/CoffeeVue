@@ -1,12 +1,12 @@
 <template>
     <div class="build-modal">
         <div class="container flex mx-auto  p-10 min-h-full max-h-max	max-height: max-content; min-w-[75%]  ">
-            <div class=" p-3  mx-auto flex h-[15rem] w-[100%] bg-slate-900">
+            <div class=" p-1  mx-auto flex h-[15rem] w-[100%] bg-slate-900">
 
 
-                <BuildMethods >
-                    <AeropressCard />
-                    <AeropressCard />
+                <BuildMethods 
+                >
+
                 </BuildMethods >
 
 
@@ -19,6 +19,8 @@
 import MethodCard from '@/components/Build/AeropressCard.vue';
 import BuildMethods from '@/components/BuildMethods.vue';
 import AeropressCard from '@/components/Build/AeropressCard.vue';
+
+
 
 </script>
 
