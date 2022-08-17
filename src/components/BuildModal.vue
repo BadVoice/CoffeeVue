@@ -16,9 +16,9 @@
 </template>
 
 <script setup>
-import MethodCard from '@/components/Build/AeropressCard.vue';
-import BuildMethods from '@/components/BuildMethods.vue';
-import AeropressCard from '@/components/Build/AeropressCard.vue';
+
+import BuildMethods from '@/components/Build/BuildMethods.vue';
+
 
 
 

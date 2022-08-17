@@ -1,13 +1,13 @@
 <template>
     <div class="build">
-        <div class="container flex mx-auto  p-10 min-h-full max-h-max	max-height: max-content; min-w-[75%]  ">
-            <div class=" p-1  mx-auto flex h-[15rem] w-[100%] bg-slate-900">
+        <div class="container flex mx-auto  p-10 min-h-full  max-w-[75%]  ">
+            <div class=" p-1  mx-auto h-[12rem] w-[100%] bg-slate-900">
 
 
                 <BuildMethods 
-                
+            
                 >
-
+                
                 </BuildMethods >
 
 
@@ -17,8 +17,9 @@
 </template>
 
 <script setup>
-import BuildMethods from '@/components/BuildMethods.vue';
-import { ref } from 'vue'
+    import BuildMethods from '@/components/Build/BuildMethods.vue';
+    import { reactive, ref } from 'vue'
+
 
 
 
