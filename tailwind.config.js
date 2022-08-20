@@ -3,7 +3,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"], 
   theme: {
     fontFamily: {
-      Roboto: ["Roboto, sans-serif"],
+      Cedarville: ["Cedarville-Cursive, sans-serif"],
     },
     container: {
       padding: "2rem",

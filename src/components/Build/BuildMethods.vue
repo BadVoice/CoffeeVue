@@ -8,7 +8,7 @@
             <img :src="method.image"  
                 :class="method.imageSize"> 
             
-            <p> {{ method.title }} </p>
+            <a class="cursor-pointer"> {{ method.title }} </a>
             
         </div>
         
@@ -24,18 +24,13 @@
 
     const objMethods = reactive({
         aeropress: {
-            imageSize: "bg-no-repeat w-[100%] h-[80%] bg-contain bg-center",
-            image: "./src/assets/aeropress.png",
+            imageSize: "bg-no-repeat w-[100%] h-[80%] bg-contain bg-center cursor-pointer",
+            
             title: 'Aeropress'
         },
         V60: {
-            imageSize: "bg-no-repeat w-[100%] h-[80%] bg-contain bg-center",
-            image: "./src/assets/v60.png",
-            title: 'V60'
-        }, 
-        V70: {
-            imageSize: "bg-no-repeat w-[100%] h-[80%] bg-contain bg-center",
-            image: "./src/assets/v60.png",
+            imageSize: "bg-no-repeat w-[100%] h-[80%] bg-contain bg-center cursor-pointer",
+        
             title: 'V60'
         }
     })
