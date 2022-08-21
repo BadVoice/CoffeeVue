@@ -2,7 +2,7 @@
   <div class="navigation">
     <nav class="">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-    <div class="relative flex items-center justify-center sm:justify-between h-20 min-h-full">
+    <div class="relative flex items-center justify-start sm:justify-between h-20 min-h-full">
       <div class="inset-y-0 left-0 flex items-center sm:hidden">
         <!-- Mobile menu button-->
         <button  @click.prevent="toggleBurger" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-[#2D635E] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
@@ -35,32 +35,32 @@
           <img class="block lg:hidden w-11 h-8  mx-2 sm:w-auto sm:h-auto  sm:px-2" src="@/assets/images/logos/logo.svg" alt="logo">
 
           <RouterLink to="/"
-              class="text-black font-cedarville  h-8   text-[28px] sm:text-[38px] p-1 rounded-md text-sm font-medium" aria-current="page"
+              class="text-black font-cedarville  h-8   text-2xl sm:text-[38px] p-1 rounded-md text-sm font-medium" aria-current="page"
             >Samwayle</RouterLink>
         </div>
         
         <div class="hidden sm:block sm:ml-6">
-          <div class="flex space-x-4">
+          <div class="flex space-x-4 items-center">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
             <RouterLink to="build"
-              class="text-black font-josenfin hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin leading-6 align-middle px-3 py-2 rounded-md text-sm font-bold"
             >About Us</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin  hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
             >Promotion</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin align-middle  px-3 py-2 rounded-md text-sm font-bold"
             >Shop</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin align-middle  px-3 py-2 rounded-md text-sm font-bold"
             >Contacts</RouterLink>
             
             <RouterLink to="build"
-              class="bg-[#2D635E] font-josenfin hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page"
+              class="bg-[#2D635E] font-josenfin transition duration-300 hover:text-white hover:bg-[#2D735E] text-white px-3 py-2 rounded-md text-sm font-bold" aria-current="page"
             >Contact Us</RouterLink>
 
 
@@ -77,26 +77,30 @@
       v-show="burgerActive">
     <div 
     ref="burgerRef"
-    class="px-2 pt-2 pb-3 space-y-1 flex-col flex">
+    class="px-2 pt-2 pb-3 space-y-2 flex-col flex">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <RouterLink to="/"
+              class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
+            >Home</RouterLink>
+
             <RouterLink to="build"
-              class="text-black font-josenfin text-center hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >About Us</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin text-center hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >Promotion</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin text-center hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >Shop</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin text-center hover:bg-[#2D635E] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-black font-josenfin transition duration-300 text-center w-[60%] m-auto align-middle hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >Contacts</RouterLink>
             
             <RouterLink to="build"
-              class="bg-[#2D635E] font-josenfin text-center hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page"
+              class="bg-[#2D635E] font-josenfin   text-center align-middle w-[60%] m-auto hover:text-white  text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
             >Contact Us</RouterLink>
     </div>
   </div>
