@@ -5,11 +5,12 @@
             
             </div>
 
-            <div class=" flex w-[45%] h-full ">
+            <div class="hidden md:flex min-w-[45%] ">
                 
-                    <div class="hidden md:flex items-end  w-full">
+                    <div class="hidden md:flex relative items-end  w-full">
                             
-                        <div class="bg-green-500/[.04] relative flex  items-center justify-center w-[159px] h-[157px] ">
+                        <div class="absolute bottom-0 right-0">
+                            <div class="bg-slate-500/[.06] relative flex  items-center justify-center w-[159px] h-[157px] ">
                             <RouterLink to="/build"
 
                                 class="
@@ -18,11 +19,18 @@
                                 <img class="hover:ml-2  hover:w-[35px] hover:h-[8px] duration-200  md:block hidden min-w-[25px] w-[25px] h-[6px]" src="@/assets/images/icons/arrow.png" alt="arrow">
                             </RouterLink>
                         </div>   
+                        </div>
                     </div>
 
-                    <div class="flex items-end">
-                        <img class="md:block hidden  max-w-[344px] max-h-[373px]" src="@/assets/images/coffeeGrinder.svg" alt="coffeeGrinder">
-                    </div>
+                 
+                        
+                            <div class="flex items-end relative w-full h-full max-w-[344px] min-h-[373px]">
+                                <div class="relative bg-[#E3EBE7] min-w-[410px] min-h-[466px]">
+                                    <img class="md:block hidden absolute w-full bottom-[-50px] right-5 max-w-[344px] min-h-[373px]" src="@/assets/images/coffeeGrinder.svg" alt="coffeeGrinder">
+                                </div>
+                            </div>
+                       
+                    
                 
             </div>
 
