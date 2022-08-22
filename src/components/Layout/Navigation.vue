@@ -30,12 +30,12 @@
         </button>
       </div>
 
-      <div class="sm:flex-1 flex h-[38px] items-center justify-between">
+      <div class="sm:flex-1 flex flex-col md:flex-row   md:h-[38px]   md:p-0  items-center justify-between">
         <div class="flex-shrink-0 flex items-center">
-          <img class="block lg:hidden w-11 h-8  mx-2 sm:w-auto sm:h-8  sm:px-2" src="@/assets/images/logos/logo.svg" alt="logo">
+          <img class="block lg:hidden w-11 h-8  mx-2 md:w-auto md:h-8 md:px-2" src="@/assets/images/logos/logo.svg" alt="logo">
 
           <RouterLink to="/"
-              class="text-black font-cedarville  h-8   text-2xl sm:text-[38px]  rounded-md  font-medium" aria-current="page"
+              class="text-black font-cedarville  h-8 text-2xl md:text-[38px]  rounded-md  font-medium" aria-current="page"
             >Samwayle</RouterLink>
         </div>
         

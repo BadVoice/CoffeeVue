@@ -8,7 +8,7 @@ module.exports = {
     },
     screens: {
       sm: "640px",
-      md: "768px",
+      md: "900px",
     },
     fontFamily: {
       'cedarville': ['Cedarville Cursive', 'cursive','sans-serif'],
