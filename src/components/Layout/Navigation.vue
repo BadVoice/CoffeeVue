@@ -30,21 +30,21 @@
         </button>
       </div>
 
-      <div class="sm:flex-1 flex items-center justify-between">
+      <div class="sm:flex-1 flex h-[38px] items-center justify-between">
         <div class="flex-shrink-0 flex items-center">
-          <img class="block lg:hidden w-11 h-8  mx-2 sm:w-auto sm:h-auto  sm:px-2" src="@/assets/images/logos/logo.svg" alt="logo">
+          <img class="block lg:hidden w-11 h-8  mx-2 sm:w-auto sm:h-8  sm:px-2" src="@/assets/images/logos/logo.svg" alt="logo">
 
           <RouterLink to="/"
-              class="text-black font-cedarville  h-8   text-2xl sm:text-[38px] p-1 rounded-md text-sm font-medium" aria-current="page"
+              class="text-black font-cedarville  h-8   text-2xl sm:text-[38px]  rounded-md  font-medium" aria-current="page"
             >Samwayle</RouterLink>
         </div>
         
-        <div class="hidden sm:block sm:ml-6">
-          <div class="flex space-x-4 items-center">
+        <div class="hidden  sm:block  align-middle  sm:ml-6">
+          <div class="flex space-x-4 items-center ">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
             <RouterLink to="build"
-              class="text-black font-josenfin leading-6 align-middle px-3 py-2 rounded-md text-sm font-bold"
+              class="text-black font-josenfin leading-3 align-middle px-3 py-2  rounded-md text-[16px] font-bold"
             >About Us</RouterLink>
 
             <RouterLink to="build"
