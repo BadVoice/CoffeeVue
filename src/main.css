@@ -2,6 +2,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedLightItalic.eot');
+    src: local('George Rounded Light Italic'), local('GeorgeRoundedLightItalic'),
+        url('GeorgeRoundedLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedLightItalic.woff2') format('woff2'),
+        url('GeorgeRoundedLightItalic.woff') format('woff'),
+        url('GeorgeRoundedLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedSemiboldItalic.eot');
+    src: local('George Rounded Semibold Italic'), local('GeorgeRoundedSemiboldItalic'),
+        url('GeorgeRoundedSemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedSemiboldItalic.woff2') format('woff2'),
+        url('GeorgeRoundedSemiboldItalic.woff') format('woff'),
+        url('GeorgeRoundedSemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedSemibold.eot');
+    src: local('George Rounded Semibold'), local('GeorgeRoundedSemibold'),
+        url('GeorgeRoundedSemibold.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedSemibold.woff2') format('woff2'),
+        url('GeorgeRoundedSemibold.woff') format('woff'),
+        url('GeorgeRoundedSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedBoldItalic.eot');
+    src: local('George Rounded Bold Italic'), local('GeorgeRoundedBoldItalic'),
+        url('GeorgeRoundedBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedBoldItalic.woff2') format('woff2'),
+        url('GeorgeRoundedBoldItalic.woff') format('woff'),
+        url('GeorgeRoundedBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedItalic.eot');
+    src: local('George Rounded Italic'), local('GeorgeRoundedItalic'),
+        url('GeorgeRoundedItalic.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedItalic.woff2') format('woff2'),
+        url('GeorgeRoundedItalic.woff') format('woff'),
+        url('GeorgeRoundedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedBold.eot');
+    src: local('George Rounded Bold'), local('GeorgeRoundedBold'),
+        url('GeorgeRoundedBold.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedBold.woff2') format('woff2'),
+        url('GeorgeRoundedBold.woff') format('woff'),
+        url('GeorgeRoundedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedLight.eot');
+    src: local('George Rounded Light'), local('GeorgeRoundedLight'),
+        url('GeorgeRoundedLight.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedLight.woff2') format('woff2'),
+        url('GeorgeRoundedLight.woff') format('woff'),
+        url('GeorgeRoundedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'George Rounded';
+    src: url('GeorgeRoundedRegular.eot');
+    src: local('George Rounded'), local('GeorgeRoundedRegular'),
+        url('GeorgeRoundedRegular.eot?#iefix') format('embedded-opentype'),
+        url('GeorgeRoundedRegular.woff2') format('woff2'),
+        url('GeorgeRoundedRegular.woff') format('woff'),
+        url('GeorgeRoundedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 

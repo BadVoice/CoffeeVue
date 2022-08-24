@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       'cedarville': ['Cedarville Cursive', 'cursive','sans-serif'],
       'josenfin': ['Josefin Sans', 'sans-serif'],
+      'george-round':  ['George Round', 'sans-serif']
     },
   },
   plugins: [],
