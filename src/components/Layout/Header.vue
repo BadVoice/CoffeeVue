@@ -80,6 +80,3 @@
 
 </script>
 
-<style scoped>
-
-</style>

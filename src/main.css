@@ -3,6 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 @font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/alegreya-sans-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/alegreya-sans-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alegreya-sans-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alegreya-sans-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/alegreya-sans-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alegreya-sans-v21-latin-regular.svg#AlegreyaSans') format('svg'); /* Legacy iOS */
+    }
+
+
+@font-face {
     font-family: 'George Rounded';
     src: url('GeorgeRoundedLightItalic.eot');
     src: local('George Rounded Light Italic'), local('GeorgeRoundedLightItalic'),
