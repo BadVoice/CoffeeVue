@@ -17,5 +17,7 @@ module.exports = {
       'alegreya': ['Alegreya Sans', 'sans-serif']
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
