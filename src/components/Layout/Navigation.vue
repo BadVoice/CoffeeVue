@@ -43,7 +43,7 @@
           <div class="flex space-x-4  w-full content-around items-center justify-around md:justify-end gap-10">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
-            <RouterLink to="build"
+            <RouterLink to="/aboutUs"
               class="text-black font-josenfin leading-3 align-middle px-3 py-2  rounded-md text-[16px] font-bold"
             >About Us</RouterLink>
 

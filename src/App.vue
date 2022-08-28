@@ -2,7 +2,9 @@
     
       <Navigation />
     
-      <RouterView></RouterView>
+      <RouterView>
+        
+      </RouterView>
       
     
   
