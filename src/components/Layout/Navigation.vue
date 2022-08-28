@@ -40,7 +40,7 @@
         </div>
         
         <div class="hidden sm:flex w-full ">
-          <div class="flex space-x-4  w-full content-around items-center justify-around">
+          <div class="flex space-x-4  w-full content-around items-center justify-around md:justify-end gap-10">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
             <RouterLink to="build"
@@ -49,10 +49,10 @@
 
             <RouterLink to="build"
               class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
-            >Promotion</RouterLink>
+            >Build</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin align-middle  px-3 py-2 rounded-md text-sm font-bold"
+              class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
             >Shop</RouterLink>
 
             <RouterLink to="build"
@@ -61,7 +61,7 @@
             
             <RouterLink to="build"
               class="bg-[#2D635E] font-josenfin transition duration-300 hover:text-white hover:bg-[#2d7e65] text-white px-3 py-2 rounded-md text-sm font-bold" aria-current="page"
-            >Contact Us</RouterLink>
+            >Sign in</RouterLink>
 
 
 
@@ -88,17 +88,13 @@
             >About Us</RouterLink>
 
             <RouterLink to="build"
-              class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
-            >Promotion</RouterLink>
+              class="text-black font-josenfin transition duration-300 text-center w-[60%] m-auto align-middle hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
+            >Build</RouterLink>
 
             <RouterLink to="build"
               class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >Shop</RouterLink>
 
-            <RouterLink to="build"
-              class="text-black font-josenfin transition duration-300 text-center w-[60%] m-auto align-middle hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
-            >Contacts</RouterLink>
-            
             <RouterLink to="build"
               class="bg-[#2D635E] font-josenfin   text-center align-middle w-[60%] m-auto hover:text-white  text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
             >Contact Us</RouterLink>
