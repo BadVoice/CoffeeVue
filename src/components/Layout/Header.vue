@@ -9,7 +9,7 @@
                     </p>
                     <h1 class="flex font-josenfin text-5xl sm:text-6xl font-medium tracking-wider sm:tracking-normal sm:font-bold max-w-[375px]">Coffee Shop</h1>
             <RouterLink
-                to="/build"
+                to="/shop"
                 class="w-[235px] h-[54px] hidden sm:flex"
                 
                 >
@@ -21,7 +21,7 @@
             </RouterLink>
             <!-- mobile router btn -->
             <RouterLink
-                to="/build"
+                to="/shop"
                 class="w-[189px] h-[53px] flex sm:hidden "
                 
                 >
@@ -46,7 +46,7 @@
                             
                         <div class="absolute bottom-0 right-0">
                             <div class="bg-slate-500/[.06] relative flex  items-center justify-center w-[159px] h-[157px] ">
-                            <RouterLink to="/build"
+                            <RouterLink to="/shop"
 
                                 class="
                                 p-4 " aria-current="page"

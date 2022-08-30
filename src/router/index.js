@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
-import ShopView from '@/views/BuildView.vue'
+import Shop from '@/components/Layout/Shop.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,18 +11,16 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue')  
     },
     {
+      path: '/shop',
+      name: 'shop',
+      component: () => import('@/components/Layout/Shop.vue')  
+    },
+    {
       path: '/authorization',
       name: 'authorization',
       component: () => import('@/components/Authorization.vue')  
     },
-    {
-        path: '/build',
-        name: 'constructor',
-        // route level code-splitting
-        // this generates a separate chunk (About.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import('../views/BuildView.vue')  
-    }
+
   ],
   scrollBehavior (to, from, savedPosition) {
     return savedPosition || new Promise((resolve) => {

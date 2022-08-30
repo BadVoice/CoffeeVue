@@ -44,20 +44,20 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
             <RouterLink 
-              to="/"
+              to=""
               class="
               text-black   font-josenfin leading-3 align-middle px-3 py-2  rounded-md text-[16px] font-bold cursor-pointer"
             >About Us</RouterLink>
 
-            <RouterLink to="build"
+            <RouterLink to=""
               class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
             >Build</RouterLink>
 
-            <RouterLink to="build"
+            <RouterLink to="/shop"
               class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
             >Shop</RouterLink>
 
-            <RouterLink to="build"
+            <RouterLink to=""
               class="text-black font-josenfin align-middle  px-3 py-2 rounded-md text-sm font-bold"
             >Contacts</RouterLink>
             
@@ -86,21 +86,21 @@
             >Home</RouterLink>
 
             <RouterLink 
-              to="/"
+              to=""
               class="
               
               text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >About Us</RouterLink>
 
-            <RouterLink to="build"
+            <RouterLink to=""
               class="text-black font-josenfin transition duration-300 text-center w-[60%] m-auto align-middle hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >Build</RouterLink>
 
-            <RouterLink to="build"
+            <RouterLink to="/shop"
               class="text-black font-josenfin transition duration-300 text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium"
             >Shop</RouterLink>
 
-            <RouterLink to="build"
+            <RouterLink to=""
               class="bg-[#2D635E] font-josenfin   text-center align-middle w-[60%] m-auto hover:text-white  text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
             >Contact Us</RouterLink>
 
