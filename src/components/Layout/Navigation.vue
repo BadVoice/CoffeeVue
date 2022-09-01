@@ -9,9 +9,7 @@
           <span class="sr-only">Open main menu</span>
           <!--
             Icon when menu is closed.
-
             Heroicon name: outline/menu
-
             Menu open: "hidden", Menu closed: "block"
           -->
           <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -19,7 +17,6 @@
           </svg>
           <!--
             Icon when menu is open.
-
             Heroicon name: outline/x
         
             Menu open: "block", Menu closed: "hidden"
@@ -114,11 +111,9 @@
     import { RouterLink } from "vue-router";
     import { ref } from "vue";
     import { onClickOutside } from '@vueuse/core'
-
     const modalActive = ref(null)
     const burgerActive = ref(null)
     const burgerRef = ref(null)
-
     const toggleModal = () => {
     modalActive.value = !modalActive.value
     console.log('here')
@@ -128,10 +123,7 @@
     burgerActive.value = !burgerActive.value 
     console.log('here2')
     }
-
-
 </script>
 
 <style>
-
 </style>
