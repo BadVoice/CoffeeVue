@@ -4,7 +4,7 @@
         <div class="mx-auto  py-16 sm:py-24 lg:max-w-none lg:py-32">
           <h2 class="text-2xl font-bold text-gray-900">Collections</h2>
   
-          <div class="mt-6 gap-10 md:gap-5 justify-between  flex flex-col  md:flex-row  lg:gap-x-6 lg:space-y-0">
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4  lg:gap-x-6 lg:space-y-0">
 
             <div v-for="callout in callouts" :key="callout.name" class="group my-0 relative">
               <div class="relative  h-80  w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-80 lg:aspect-w-1 lg:aspect-h-1">
