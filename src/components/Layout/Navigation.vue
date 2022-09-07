@@ -98,8 +98,12 @@
             >Shop</RouterLink>
 
             <RouterLink to=""
-              class="bg-[#2D635E] font-josenfin   text-center align-middle w-[60%] m-auto hover:text-white  text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
+              class="text-black font-josenfin transition duration-300  text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
             >Contact Us</RouterLink>
+
+            <RouterLink to="/authorization"
+              class="text-black font-josenfin transition duration-300  text-center align-middle w-[60%] m-auto hover:bg-[#2D635E] hover:text-white px-3 py-1 rounded-md text-xl font-medium" aria-current="page"
+            >Sign in</RouterLink>
 
     </div>
   </div>
