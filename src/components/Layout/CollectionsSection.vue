@@ -26,8 +26,10 @@
   </template>
   
   <script setup>
-  const callouts = [
-    
+    import { reactive } from 'vue';
+
+
+  const callouts = reactive([
     {
       name: 'Drips',
       description: "Drip coffee is that it's very easy to prepare",
@@ -49,5 +51,13 @@
       imageAlt: 'Collection of coffee aeropress puring methods',
       href: '#',
     },
-  ]
+  ])
+
+  
   </script>
+
+
+<style scoped>
+  
+
+</style>

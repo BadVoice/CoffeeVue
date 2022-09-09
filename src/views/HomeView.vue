@@ -5,6 +5,7 @@
     <Header /> 
     <AboutUs /> 
     <CollectionsSection />
+    
   </div>
 </template>
 

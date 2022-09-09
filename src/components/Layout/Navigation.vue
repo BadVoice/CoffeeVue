@@ -46,9 +46,7 @@
               text-black   font-josenfin leading-3 align-middle px-3 py-2  rounded-md text-[16px] font-bold cursor-pointer"
             >About Us</RouterLink>
 
-            <RouterLink to=""
-              class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
-            >Build</RouterLink>
+            
 
             <RouterLink to="/shop"
               class="text-black font-josenfin align-middle   px-3 py-2 rounded-md text-sm font-bold"
@@ -57,6 +55,35 @@
             <RouterLink to=""
               class="text-black font-josenfin align-middle  px-3 py-2 rounded-md text-sm font-bold"
             >Contacts</RouterLink>
+
+            <Menu as="div" class="relative inline-block text-left">
+              <div>
+                <MenuButton class="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-bold font-josenfin text-black shadow-sm  focus:outline-none focus:ring-2 focus:ring-[#2d7e65] focus:ring-offset-2 focus:ring-offset-gray-100">
+                  More
+                </MenuButton>
+              </div>
+          
+              <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+                <MenuItems class="absolute left-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none font-george-round  font-bold">
+                  <div class="py-1">
+                    <MenuItem v-slot="{ active }">
+                      <RouterLink to="/authorization" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Auth</RouterLink>
+                    </MenuItem>
+                    <MenuItem v-slot="{ active }">
+                      <a href="#" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Text</a>
+                    </MenuItem>
+                    <MenuItem v-slot="{ active }">
+                      <a href="#" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">Text</a>
+                    </MenuItem>
+                    <form method="POST" action="#">
+                      <MenuItem v-slot="{ active }">
+                        <button type="submit" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block w-full px-4 py-2 text-left text-sm']">Text</button>
+                      </MenuItem>
+                    </form>
+                  </div>
+                </MenuItems>
+              </transition>
+            </Menu>
             
             <RouterLink to="/authorization"
               class="bg-[#2D635E] font-josenfin transition duration-300 hover:text-white hover:bg-[#2d7e65] text-white px-3 py-2 rounded-md text-sm font-bold" aria-current="page"
@@ -115,6 +142,11 @@
     import { RouterLink } from "vue-router";
     import { ref } from "vue";
     import { onClickOutside } from '@vueuse/core'
+    import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+  
+
+
+
     const modalActive = ref(null)
     const burgerActive = ref(null)
     const burgerRef = ref(null)
