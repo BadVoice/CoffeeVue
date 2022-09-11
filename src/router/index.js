@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import Shop from '@/components/Layout/Shop.vue'
+import  ShoppingCarts  from '@/components/ShoppingCarts.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/shop',
       name: 'shop',
       component: () => import('@/components/Layout/Shop.vue')  
+    },
+    {
+      path: '/ShoppingCarts',
+      name: 'ShoppingCarts',
+      component: () => import('@/components/ShoppingCarts.vue')  
     },
     {
       path: '/authorization',
