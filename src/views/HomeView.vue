@@ -1,11 +1,7 @@
 
 <template>
   <div class="home">
-    <ShoppingCarts 
-     >
-
-
-    </ShoppingCarts>
+      
     <Header /> 
     <AboutUs /> 
     <CollectionsSection />
@@ -17,7 +13,7 @@
 import Header from '../components/Layout/Header.vue';
 import AboutUs from '../components/Layout/AboutUs.vue';
 import CollectionsSection from '../components/Layout/CollectionsSection.vue';
-import ShoppingCarts from '../components/ShoppingCarts.vue';
+
 
 </script>
 
