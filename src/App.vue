@@ -1,7 +1,7 @@
 <template>
     
       <Navigation />
-      <HomeView ></HomeView>
+      
       <RouterView>
         
       </RouterView>
@@ -13,7 +13,7 @@
 <script setup>
   import { RouterLink, RouterView } from 'vue-router'
   import Navigation from '@/components/Layout/Navigation.vue'
-  import HomeView from './views/HomeView.vue';
+  
   
 
 </script>
